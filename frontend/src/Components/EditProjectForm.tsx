@@ -85,7 +85,3 @@ const EditProjectForm = ({ project, onSuccess, onCancel }: EditProjectFormProps)
   );
 };
 export default EditProjectForm;
-
-// function UpdateProject(projectId: number, formData: Project) {
-//     throw new Error('Function not implemented.');
-// }
