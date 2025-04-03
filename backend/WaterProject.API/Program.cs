@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend",
         configurePolicy: policy =>
         {
-            policy.WithOrigins("http://localhost:3000")
+            policy.WithOrigins("http://localhost:3000", "https://witty-mushroom-00354e11e.6.azurestaticapps.net")
             .AllowCredentials()
             .AllowAnyHeader()
             .AllowAnyMethod();
